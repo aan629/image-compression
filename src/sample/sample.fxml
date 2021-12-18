@@ -1,0 +1,65 @@
+<!-- Copyright 2017-2018 - Umair
+https://github.com/umairreaz/image-compression -->
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Region?>
+<HBox fx:id="mainwindow"
+      fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+
+    <VBox>
+        <HBox fx:id="top">
+            <Button fx:id="load" text="Load image">
+            </Button>
+        </HBox>
+
+        <HBox fx:id="mid">
+            <ListView fx:id="algorithms" >
+            </ListView>
+
+            <ImageView fx:id="original" preserveRatio="true">
+            </ImageView>
+
+            <Region minWidth="10.0">
+            </Region>
+
+            <ImageView fx:id="modified" preserveRatio="true">
+            </ImageView>
+        </HBox>
+
+        <VBox fx:id="bot">
+            <RadioButton fx:id="source" text="Save to same directory">
+            </RadioButton>
+
+            <HBox>
+                <RadioButton fx:id="path" text="Save to">
+                </RadioButton>
+
+                <TextField fx:id="path_input">
+                </TextField>
+
+                <Button fx:id="browse" text="Browse...">
+                </Button>
+            </HBox>
+            <HBox>
+                <Button fx:id="save" text="Save">
+                </Button>
+                <Text fx:id="messages">
+                </Text>
+            </HBox>
+            <HBox>
+                <Button fx:id="about" text="About">
+                </Button>
+            </HBox>
+        </VBox>
+    </VBox>
+
+</HBox>

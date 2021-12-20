@@ -14,7 +14,5 @@ First version:
 Format Supported:
 - PNG (Lossless)
 
-![screenshot](https://github.com/aan629/image-compression/blob/master/bin/img-compression.gif)
-
 Requirements:
 Kamu harus mempunyai JRE 9.x.x yang sudah terinstall untuk menjalankan aplikasi ini

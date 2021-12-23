@@ -1,6 +1,6 @@
 ## Loseless Image Compression using Huffman and Haarwavelet algorithms
 
-Aplikasi ini ditulis menggunakan Java 8 dan JavaFX
+Aplikasi ini ditulis menggunakan Java 9 dan JavaFX
 
 Current status: **Version 1.1**
 
